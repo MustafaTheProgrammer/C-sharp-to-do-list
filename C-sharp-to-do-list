@@ -1,0 +1,16 @@
+using System;
+
+namespace to-do list
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("I've made a to-do list showing a list of items I need, here it is currently:");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+        }
+    }
+}
