@@ -7,10 +7,7 @@ namespace to-do list
         static void Main(string[] args)
         {
             Console.WriteLine("I've made a to-do list showing a list of items I need, here it is currently:");
-            Console.WriteLine("");
-            Console.WriteLine("");
-            Console.WriteLine("");
-            Console.WriteLine("");
+            [add list]
         }
     }
 }
