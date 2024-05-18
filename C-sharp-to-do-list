@@ -25,7 +25,7 @@ namespace to-do list
             }
 
             items.Add(thing);
-            Console.WriteLine("Here's the new list:");
+            Console.WriteLine("Here's the list with your new item:");
             Console.WriteLine(items);
         }
     }
