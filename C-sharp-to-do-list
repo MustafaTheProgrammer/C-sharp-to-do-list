@@ -1,4 +1,4 @@
-using System;
+using System.Collections.Generics;
 
 namespace to-do list
 {
@@ -7,7 +7,17 @@ namespace to-do list
         static void Main(string[] args)
         {
             Console.WriteLine("I've made a to-do list showing a list of items I need, here it is currently:");
-            [add list]
+            List<String> items = new List<String>();
+            items.Add(fruits);
+            items.Add(veggies);
+            items.Add(shampoo);
+            items.Add(Books);
+            items.Add(pencils);
+            items.Add(erasers);
+            Console.WriteLine(items);
+
+            Console.WriteLine("If you want to add another item type it in. If your done with this write done.")
+            Console.Readline(X)
         }
     }
 }
