@@ -16,8 +16,17 @@ namespace to-do list
             items.Add(erasers);
             Console.WriteLine(items);
 
-            Console.WriteLine("If you want to add another item type it in. If your done with this write done.")
-            Console.Readline(X)
+            thing = "";
+
+            while(thing = "")
+            {
+                Console.WriteLine("Type in something that will be added to this to-do list.")
+                thing = console.ReadLine();
+            }
+
+            items.Add(thing);
+            Console.WriteLine("Here's the new list:");
+            Console.WriteLine(items);
         }
     }
 }
