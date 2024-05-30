@@ -15,7 +15,7 @@ namespace to-do list
             items.Add(erasers);
 
             Console.WriteLine("I've made a to-do list showing a list of items needed, here it is currently:");
-            Console.WriteLine(items)
+            Console.WriteLine(items);
             Console.WriteLine("How about you add something. If you don't want to just type Done.");
             String thing = Console.ReadLine();
             
@@ -23,10 +23,10 @@ namespace to-do list
             {
 
                 items.Add(thing);
-                Console.WriteLine("Here's the new list:")
+                Console.WriteLine("Here's the new list:");
                 Console.WriteLine(items);
-                Console.WriteLine("Add another item into the list if you'd like to. If you don't want to just type Done.")
-                thing = console.ReadLine();
+                Console.WriteLine("Add another item into the list if you'd like to. If you don't want to just type Done.");
+                String thing = console.ReadLine();
             }
 
             Console.WriteLine("Your list is done. Bye!"); 
