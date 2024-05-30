@@ -6,7 +6,6 @@ namespace to-do list
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("I've made a to-do list showing a list of items I need, here it is currently:");
             List<String> items = new List<String>();
             items.Add(fruits);
             items.Add(veggies);
@@ -14,19 +13,24 @@ namespace to-do list
             items.Add(Books);
             items.Add(pencils);
             items.Add(erasers);
-            Console.WriteLine(items);
 
-            thing = "";
-
-            while(thing = "")
+            Console.WriteLine("I've made a to-do list showing a list of items needed, here it is currently:");
+            Console.WriteLine(items)
+            Console.WriteLine("How about you add something. If you don't want to just type Done.");
+            String thing = Console.ReadLine();
+            
+            while(thing != Done)
             {
-                Console.WriteLine("Type in something that will be added to this to-do list.")
+
+                items.Add(thing);
+                Console.WriteLine("Here's the new list:")
+                Console.WriteLine(items);
+                Console.WriteLine("Add another item into the list if you'd like to. If you don't want to just type Done.")
                 thing = console.ReadLine();
             }
 
-            items.Add(thing);
-            Console.WriteLine("Here's the list with your new item:");
-            Console.WriteLine(items);
+            Console.WriteLine("Your list is done. Bye!"); 
+            
         }
     }
 }
